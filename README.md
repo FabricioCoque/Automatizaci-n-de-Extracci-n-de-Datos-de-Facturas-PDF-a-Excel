@@ -18,14 +18,20 @@ Factura Extractor es una herramienta diseñada para extraer información clave d
 - **re**: Módulo de expresiones regulares para estructurar los datos extraídos de los PDF.
 
 ## 📂 Estructura del Proyecto
-📂 factura-extractor 
-│── 📂 facturas # Carpeta que contiene las facturas PDF para procesar
-    │── factura1.pdf │ │── factura2.pdf │ │── factura3.pdf │ └── ... 
-│── 📂 src 
-    │── extractor.py # Función para extraer texto de PDFs utilizando pdfplumber 
-    │── datos_clave.py # Función para estructurar los datos extraídos 
-│── app.py # Aplicación principal basada en Streamlit 
-│── README.md # Documentación del proyecto
+
+```
+📂 factura-extractor
+│── 📂 facturas                # Carpeta que contiene las facturas PDF para procesar
+│   │── factura1.pdf
+│   │── factura2.pdf
+│   │── factura3.pdf
+│   └── ...
+│── 📂 src
+│   │── extractor.py           # Función para extraer texto de PDFs utilizando pdfplumber
+│   │── datos_clave.py         # Función para estructurar los datos extraídos
+│── app.py                     # Aplicación principal basada en Streamlit
+│── README.md                  # Documentación del proyecto
+```
 
 ## 📝 Descripción de las Funciones
 
