@@ -2,7 +2,7 @@
 
 Factura Extractor es una herramienta diseñada para extraer información clave de facturas en formato PDF y generar un reporte organizado en Excel. La aplicación facilita la automatización de la extracción de datos como el número de factura, fecha, proveedor, importe y otros detalles esenciales, utilizando **pdfplumber** para procesar los archivos PDF y **pandas** para organizar y generar el reporte.
 
-## 🚀 Características
+##  Características
 - **Carga de archivos PDF**: Permite seleccionar una carpeta con archivos PDF que contienen las facturas.
 - **Extracción de datos clave**: Extrae datos como número de factura, fecha, proveedor, importe, IVA y otros usando **pdfplumber**.
 - **Generación de reportes**: El reporte se guarda en un archivo **Excel** con los datos estructurados.
@@ -18,7 +18,14 @@ Factura Extractor es una herramienta diseñada para extraer información clave d
 - **re**: Módulo de expresiones regulares para estructurar los datos extraídos de los PDF.
 
 ## 📂 Estructura del Proyecto
-📂 factura-extractor │── 📂 facturas # Carpeta que contiene las facturas PDF para procesar │ │── factura1.pdf │ │── factura2.pdf │ │── factura3.pdf │ └── ... │── 📂 src │ │── extractor.py # Función para extraer texto de PDFs utilizando pdfplumber │ │── datos_clave.py # Función para estructurar los datos extraídos │── app.py # Aplicación principal basada en Streamlit │── README.md # Documentación del proyecto
+📂 factura-extractor 
+│── 📂 facturas # Carpeta que contiene las facturas PDF para procesar
+    │── factura1.pdf │ │── factura2.pdf │ │── factura3.pdf │ └── ... 
+│── 📂 src 
+    │── extractor.py # Función para extraer texto de PDFs utilizando pdfplumber 
+    │── datos_clave.py # Función para estructurar los datos extraídos 
+│── app.py # Aplicación principal basada en Streamlit 
+│── README.md # Documentación del proyecto
 
 ## 📝 Descripción de las Funciones
 
@@ -44,10 +51,12 @@ Una vez que los datos se han extraído y estructurado, se organizan en un **Data
 - **Formato de las facturas**: La precisión de la extracción depende de la estructura de las facturas. Las facturas que no siguen un formato consistente podrían requerir ajustes adicionales en las expresiones regulares.
 - **Validación de archivos PDF**: Asegúrate de que los archivos PDF estén correctamente formateados y sean legibles. La aplicación no valida ni corrige documentos corruptos o ilegibles.
 
-## 🚧 Mejoras Futuras
+## Mejoras Futuras
 - **Soporte para más formatos de facturas**: Agregar más patrones para soportar distintos tipos de facturas.
 - **Vista previa de los datos extraídos**: Incluir una opción para mostrar una vista previa antes de generar el archivo Excel.
 - **Validación de datos**: Implementar validaciones adicionales para los campos extraídos (por ejemplo, validar que los números de factura no se repitan).
 
 ## 📜 Licencia
 Este proyecto está bajo la licencia **MIT**.
+
+Creadp por Fabricio Coque
