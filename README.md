@@ -1,6 +1,6 @@
-# 📂 Factura Extractor - Generador de Reportes
+# 📂 Factura Extractor - Generador de Reportes PDF a Excel 
 
-Factura Extractor es una herramienta diseñada para extraer información clave de facturas en formato PDF y generar un reporte organizado en Excel. La aplicación facilita la automatización de la extracción de datos como el número de factura, fecha, proveedor, importe y otros detalles esenciales, utilizando **pdfplumber** para procesar los archivos PDF y **pandas** para organizar y generar el reporte.
+Apliacion que permite automatizar la extraccion de información clave de facturas en formato PDF y generar un reporte organizado en Excel. La aplicación facilita la automatización de la extracción de datos como el número de factura, fecha, proveedor, importe y otros detalles esenciales, utilizando **pdfplumber** para procesar los archivos PDF y **pandas** para organizar y generar el reporte.
 
 ##  Características
 - **Carga de archivos PDF**: Permite seleccionar una carpeta con archivos PDF que contienen las facturas.
