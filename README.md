@@ -38,6 +38,8 @@ Apliacion que permite automatizar la extraccion de información clave de factura
 ### ✅ Extracción de texto de los PDFs
 El proyecto utiliza la librería **pdfplumber** para abrir los archivos PDF y extraer el texto de manera precisa. **pdfplumber** permite acceder al contenido textual y estructurarlo de manera eficiente, especialmente cuando las facturas contienen tablas.
 
+![Resultado Aplicacion](imagenes/Factura.JPG)
+
 ### ✅ Extracción y Estructuración de Datos Clave
 Una vez que el texto es extraído de los PDFs, se utilizan expresiones regulares (con la librería **re**) para identificar patrones clave en el texto, como:
 
