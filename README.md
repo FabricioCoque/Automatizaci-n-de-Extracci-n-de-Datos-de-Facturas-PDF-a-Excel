@@ -62,7 +62,5 @@ Una vez que los datos se han extraído y estructurado, se organizan en un **Data
 - **Vista previa de los datos extraídos**: Incluir una opción para mostrar una vista previa antes de generar el archivo Excel.
 - **Validación de datos**: Implementar validaciones adicionales para los campos extraídos (por ejemplo, validar que los números de factura no se repitan).
 
-## 📜 Licencia
-Este proyecto está bajo la licencia **MIT**.
 
-Creadp por Fabricio Coque
+Creado por Fabricio Coque
