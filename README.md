@@ -54,7 +54,7 @@ Una vez que el texto es extraído de los PDFs, se utilizan expresiones regulares
 Una vez que los datos se han extraído y estructurado, se organizan en un **DataFrame** utilizando **pandas**, y luego se guardan en un archivo **Excel** utilizando **openpyxl**.
 
 
-![Imagen de ejemplo]([app.JPG))
+[Descripción de la imagen](app.jpg)
 
 ## 📌 Notas Importantes
 - **Formato de las facturas**: La precisión de la extracción depende de la estructura de las facturas. Las facturas que no siguen un formato consistente podrían requerir ajustes adicionales en las expresiones regulares.
