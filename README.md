@@ -40,8 +40,6 @@ Editar
 │   │── datos_clave.py         # Función para estructurar los datos extraídos
 │── app.py                     # Aplicación principal basada en Streamlit
 │── README.md                  # Documentación del proyecto
-
-
 📝 Descripción de las Funciones
 ✅ Extracción de texto de los PDFs
 El proyecto utiliza la librería pdfplumber para abrir los archivos PDF y extraer el texto de manera precisa. pdfplumber permite acceder al contenido textual y estructurarlo de manera eficiente, especialmente cuando las facturas contienen tablas.
@@ -50,14 +48,20 @@ El proyecto utiliza la librería pdfplumber para abrir los archivos PDF y extrae
 Una vez que el texto es extraído de los PDFs, se utilizan expresiones regulares (con la librería re) para identificar patrones clave en el texto, como:
 
 Fecha de la factura: Se busca un formato de fecha común.
-Fehca de pago
-Proveedor y detalles financieros: Se extraen importes, IVA, y otros datos financieros de la factura.
-Número de factura: Se extraen usando un patrón específico para números.
-Descripcion del servicio prestado
-Valor del Servicio
-Iva 15 %
-Valor Total
 
+Fecha de pago: Se extrae el formato correspondiente.
+
+Proveedor y detalles financieros: Se extraen importes, IVA, y otros datos financieros de la factura.
+
+Número de factura: Se extrae utilizando un patrón específico para números.
+
+Descripción del servicio prestado.
+
+Valor del servicio.
+
+IVA 15 %.
+
+Valor total.
 
 ✅ Generación de Reporte en Excel
 Una vez que los datos se han extraído y estructurado, se organizan en un DataFrame utilizando pandas, y luego se guardan en un archivo Excel utilizando openpyxl.
@@ -73,7 +77,6 @@ Soporte para más formatos de facturas: Agregar más patrones para soportar dist
 Vista previa de los datos extraídos: Incluir una opción para mostrar una vista previa antes de generar el archivo Excel.
 
 Validación de datos: Implementar validaciones adicionales para los campos extraídos (por ejemplo, validar que los números de factura no se repitan).
-
 
 📜 Licencia
 Este proyecto está bajo la licencia MIT.
